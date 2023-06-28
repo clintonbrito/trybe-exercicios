@@ -1,0 +1,17 @@
+Comandos abaixo testados:
+
+docker pull debian:stable-slim
+docker container run -it debian:stable-slim
+cat /etc/*-release
+ou
+cat /etc/os-release
+cat /etc/debian_version
+exit
+docker ps -l
+docker ps -a
+docker container ls -l
+docker start <CONTAINER ID || NAMES>
+docker attach <CONTAINER ID || NAMES> -> retomar um container criado anteriormente
+docker container rm <CONTAINER ID || NAMES> -> remover um container criado anteriormente
+docker run -it --rm andrius/ascii-patrol -> criar em modo 'cleanup' a imagem andrius/ascii-patrol
+
