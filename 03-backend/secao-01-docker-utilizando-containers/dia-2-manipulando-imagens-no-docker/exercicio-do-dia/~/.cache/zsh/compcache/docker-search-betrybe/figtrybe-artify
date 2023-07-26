@@ -1,0 +1,4 @@
+result=( ${(Q)"${(z)$(<<\EO:result
+'betrybe/figtrybe-artify'
+EO:result
+)}"} )
